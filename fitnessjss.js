@@ -74,4 +74,53 @@ function submitForm() {
     document.getElementById("state").value = "";
     document.getElementById("zip").value = "";
   }
+  document.getElementById("buy-button").addEventListener("click", function() {
+    var email = document.getElementById("email").value;
+    var name = document.getElementById("name").value;
+    var lastName = document.getElementById("last-name").value;
+    var phone = document.getElementById("phone").value;
+    var address = document.getElementById("address").value;
+    var city = document.getElementById("city").value;
+    var postcode = document.getElementById("postcode").value;
+    var orderComments = document.getElementById("order-comments").value;
+  
+    // Здесь можно выполнить дополнительные действия, например, отправить данные на сервер
+    console.log("Email:", email);
+    console.log("Name:", name);
+    console.log("Last Name:", lastName);
+    console.log("Phone:", phone);
+    console.log("Address:", address);
+    console.log("City:", city);
+    console.log("Postcode:", postcode);
+    console.log("Order Comments:", orderComments);
+  });
+  
+  document.getElementById("buy-button").addEventListener("click", function() {
+    var email = document.getElementById("email").value;
+    var name = document.getElementById("name").value;
+    var lastName = document.getElementById("last-name").value;
+    var phone = document.getElementById("phone").value;
+    var address = document.getElementById("address").value;
+    var city = document.getElementById("city").value;
+    var postcode = document.getElementById("postcode").value;
+    var orderComments = document.getElementById("order-comments").value;
+    var cardNumber = document.getElementById("card-number").value;
+    var nameOnCard = document.getElementById("name-on-card").value;
+    var expirationDate = document.getElementById("expiration-date").value;
+    var securityCode = document.getElementById("security-code").value;
+  
+    // Здесь можно выполнить дополнительные действия, например, отправить данные на сервер
+    console.log("Email:", email);
+    console.log("Name:", name);
+    console.log("Last Name:", lastName);
+    console.log("Phone:", phone);
+    console.log("Address:", address);
+    console.log("City:", city);
+    console.log("Postcode:", postcode);
+    console.log("Order Comments:", orderComments);
+    console.log("Card Number:", cardNumber);
+    console.log("Name on Card:", nameOnCard);
+    console.log("Expiration Date:", expirationDate);
+    console.log("Security Code:", securityCode);
+  });
   
