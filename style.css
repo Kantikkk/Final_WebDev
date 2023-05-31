@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+.navbar-brand {
+    font-size: 2rem;
+    padding: 20px;
+}
+.nav-link{
+    font-size: 25px;
+    padding: 10px;
+}
+.carousel {
+    height: 800px;
+ background-image: url(img/1618582160_60-funart_pro-p-oboi-fon-rozovii-fon-pastelnii-61.jpg);
+    text-align: center;
+
+}
+
+.carousel-item{
+    padding-top: 14%;
+    font-family: Ubuntu;
+    color: #6d326d;
+}
+.carousel-item h1{
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+.nav-item{
+    color: aliceblue;
+}
+
+#features {
+    padding: 1% ;
+    text-align: center;
+    background-color: rgb(132, 55, 183);
+}
+#features h1{
+    color: rgb(213, 198, 226);
+    font-family: ubuntu;
+    padding: 1%;
+}
+
+.feature-box {
+    padding: 1%;
+}
+
+#features h3 {
+    font-weight: bold;
+    color: rgb(183, 188, 201);
+    font-family: Ubuntu;
+}
+
+#features p {
+    color: rgb(183, 188, 201);
+
+}
+
+.user {
+    margin-bottom: 16px;
+    color: rgb(183, 188, 201);
+}
+
+.user:hover {
+    color: rgb(226, 94, 17);
+}
