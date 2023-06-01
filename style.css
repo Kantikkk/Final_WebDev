@@ -148,7 +148,18 @@ td:first-child::after {
     user-select: none;
 }
 
+.tooltip {
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 12px;
+    display: none;
+  }
 
+  .custom-select.is-selected {
+    border-color: purple;
+  }
 
 
 
