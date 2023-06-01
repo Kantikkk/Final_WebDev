@@ -18,8 +18,60 @@ $(document).ready(function() {
       if (inputYear < currentYear || (inputYear === currentYear && inputMonth < currentMonth)) {
         alert("Invalid debit card expiration date!");
       } else {
-        alert("Congratulations, your information is correct!");
+        alert("Congratulations, your are done!");
+      }   
+    });
+
+    $('form input').keypress(function(event) {
+      if (event.which === 13) {
+        event.preventDefault();
+        var $inputs = $(this).parents('form').find('input');
+        var $nextInput = $inputs.eq($inputs.index(this) + 1);
+        $nextInput.focus();
       }
     });
+
+    
+  $('form input').mousemove(function(event) {
+    var inputName = $(this).attr('name');
+    var tooltipText = '';
+
+    switch (inputName) {
+      case 'name':
+        tooltipText = 'Valid name format: John Doe';
+        break;
+      case 'debit-card':
+        tooltipText = 'Valid card number format: XXXX-XXXX-XXXX-XXXX';
+        break;
+      case 'debit-card-date':
+        tooltipText = 'Valid expiration date format: MM/YY';
+        break;
+    }
+
+    $('.tooltip').text(tooltipText);
+    $('.tooltip').css({
+      'top': event.pageY + 10,
+      'left': event.pageX + 10
+    });
   });
+
+  $('form input').mouseenter(function() {
+    $('.tooltip').show();
+  });
+
+  $('form input').mouseleave(function() {
+    $('.tooltip').hide();
+  });
+
+    $('.buy-button').click(function() {
+      var selectedPlan = $(this).data('plan');
+      $('#package-select').val(selectedPlan);
+      $('#package-select').addClass('is-selected');
   
+      var personalSectionOffset = $('#personal-section').offset().top;
+  
+      $('html, body').animate({
+        scrollTop: personalSectionOffset
+      }, 200);
+    });
+  });

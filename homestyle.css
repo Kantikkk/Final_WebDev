@@ -2,121 +2,7 @@
   font-family: 'Wix Madefor Display', sans-serif; 
 }
 
-.nav-link {
-  text-decoration: none;
-  color: inherit;
-}
 
-.nav-link:hover {
-  text-decoration: underline;
-  color: #CF4DCE;
-}
-
-.nav-active{
-  color: #FF8B13;
-}
-
-
-.footer {
-  background-color: #f7e0f5;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.left-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.website-name {
-  color: #CF4DCE;
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.email-prompt {
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-
-.email-input {
-  background-color: transparent;
-  border: 2px solid #FF8B13;
-  outline: none;
-  border-radius: 10px;
-  margin-bottom: 5px;
-  padding: 5px;
-}
-
-.email-input::placeholder{
-  color: orange;
-}
-
-.email-button {
-  padding: 5px 10px;
-  background-color: #FF8B13;
-  color: white;
-  border: none;
-  border-radius: 7px;
-  cursor: pointer;
-}
-
-.right-section {
-  background-color: inherit; 
-  font-weight: bold;
-  color: black; 
-}
-
-.contact-list {
-  list-style-type: disc;
-  color: purple; 
-  padding-left: 20px;
-
-}
-
-.contact-heading {
-  font-size: 25px; 
-  margin-bottom: 10px;
-  color: #FF8B13;
-}
-
-.box-section {
-  padding: 20px;
-  position: relative; 
-}
-
-.diet:hover {
-  border: 1px solid #ccc;
-  box-shadow: 0 5px 10px rgb(248, 36, 226);
-  padding: 20px;
-  cursor: pointer;
-}
-
-.exercise:hover {
-  border: 1px solid #ccc;
-  box-shadow: 0 5px 10px rgb(255, 132, 0);
-  padding: 20px;
-  cursor: pointer;
-}
-
-
-.box-section img {
-  width: 220px;
-  height: 200px;
-}
-.box-section h2 {
-  font-weight: bold;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-.box-section p {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
 body{
             margin-top:50px!important;
         }
@@ -338,4 +224,338 @@ body{
             align-items: flex-end;
           }
         
+
+          .nav-link {
+            text-decoration: none;
+            color: inherit;
+          }
+          
+          .nav-link:hover {
+            text-decoration: underline;
+            color: #CF4DCE;
+          }
+          
+          .nav-active{
+            color: #FF8B13;
+          }
+          
+          
+          .footer {
+            background-color: #f7e0f5;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          
+          .left-section {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          
+          .website-name {
+            color: #CF4DCE;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 5px;
+          }
+          
+          .email-prompt {
+            font-size: 16px;
+            margin-bottom: 5px;
+          }
+          
+          .email-input {
+            background-color: transparent;
+            border: 2px solid #FF8B13;
+            outline: none;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            padding: 5px;
+          }
+          
+          .email-input::placeholder{
+            color: orange;
+          }
+          
+          .email-button {
+            padding: 5px 10px;
+            background-color: #FF8B13;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+          }
+          
+          .right-section {
+            background-color: inherit; 
+            font-weight: bold;
+            color: black; 
+          }
+          
+          .contact-list {
+            list-style-type: disc;
+            color: purple; 
+            padding-left: 20px;
+          
+          }
+          
+          .contact-heading {
+            font-size: 25px; 
+            margin-bottom: 10px;
+            color: #FF8B13;
+          }
+          
+          .box-section {
+            padding: 20px;
+            position: relative; 
+          }
+          
+          .diet:hover {
+            border: 1px solid #ccc;
+            box-shadow: 0 5px 10px rgb(248, 36, 226);
+            padding: 20px;
+            cursor: pointer;
+          }
+          
+          .exercise:hover {
+            border: 1px solid #ccc;
+            box-shadow: 0 5px 10px rgb(255, 132, 0);
+            padding: 20px;
+            cursor: pointer;
+          }
+          
+          
+          .box-section img {
+            width: 220px;
+            height: 200px;
+          }
+          .box-section h2 {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+          }
+          .box-section p {
+            font-size: 16px;
+            margin-bottom: 20px;
+          }
+
+
+          
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+
+}
+.navbar-brand {
+  font-size: 2rem;
+  padding: 20px;
+}
+.nav-link{
+  font-size: 25px;
+  padding: 10px;
+}
+.carousel {
+  height: 800px;
+background-image: url(img/1618582160_60-funart_pro-p-oboi-fon-rozovii-fon-pastelnii-61.jpg);
+  text-align: center;
+
+}
+
+.carousel-item{
+  padding-top: 14%;
+  font-family: Ubuntu;
+  color: #6d326d;
+}
+.carousel-item h1{
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+.nav-item{
+  color: aliceblue;
+}
+
+#features {
+  padding: 1% ;
+  text-align: center;
+  background-color: rgb(132, 55, 183);
+}
+#features h1{
+  color: rgb(213, 198, 226);
+  font-family: ubuntu;
+  padding: 1%;
+}
+
+.feature-box {
+  padding: 1%;
+}
+
+#features h3 {
+  font-weight: bold;
+  color: rgb(183, 188, 201);
+  font-family: Ubuntu;
+}
+
+#features p {
+  color: rgb(183, 188, 201);
+
+}
+
+.user {
+  margin-bottom: 16px;
+  color: rgb(183, 188, 201);
+}
+
+.user:hover {
+  color: rgb(226, 94, 17);
+}
+
+*{
+  font-family: 'Wix Madefor Display', sans-serif; 
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #CF4DCE;
+}
+
+.nav-active{
+  color: #FF8B13;
+}
+
+
+.footer {
+  background-color: #f7e0f5;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.website-name {
+  color: #CF4DCE;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.email-prompt {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.email-input {
+  background-color: transparent;
+  border: 2px solid #FF8B13;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.email-input::placeholder{
+  color: orange;
+}
+
+.email-button {
+  padding: 5px 10px;
+  background-color: #FF8B13;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.right-section {
+  background-color: inherit; 
+  font-weight: bold;
+  color: black; 
+}
+
+.contact-list {
+  list-style-type: disc;
+  color: purple; 
+  padding-left: 20px;
+
+}
+
+.contact-heading {
+  font-size: 25px; 
+  margin-bottom: 10px;
+  color: #FF8B13;
+}
+
+.box-section {
+  padding: 20px;
+  position: relative; 
+}
+
+.diet:hover {
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 10px rgb(248, 36, 226);
+  padding: 20px;
+  cursor: pointer;
+}
+
+.exercise:hover {
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 10px rgb(255, 132, 0);
+  padding: 20px;
+  cursor: pointer;
+}
+
+
+.box-section img {
+  width: 220px;
+  height: 200px;
+}
+.box-section h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.box-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
+.collapse-state {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+}
+
+
+.collapsed .collapse-content {
+  display: none;
+}
+
+
+
+
+
+.no-select {
+  -webkit-user-select: none; 
+  -moz-user-select: none;
+  user-select: none;
+}
+
      
