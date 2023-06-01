@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Package Plans and Check Out</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+  </style>
+</head>
+<body>
+  <header class="container">
+    <div class="row">
+        <div class="col fs-4 fw-bold p-3" style="color: #FF8B13;">
+            FITQUEST
+        </div>
+        <ul class="col d-flex" style="list-style-type: none; font-size: 20px; justify-content: flex-end;">
+            <li class="p-3"><a class="nav-link" href="index.html"> Home</a></li>
+            <li class="p-3"><a class="nav-link" href="menuandexercises.html">Exercise & Diet</a></li>
+            <li class="p-3"><a class="nav-link nav-active" href="plans.html">Plan</a></li>
+        </ul>
+        <hr>
+    </div>  
+</header>
+  <main class="container">
+    <h1>Package Plans</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card card-package">
+          <div class="card-body">
+            <h5 class="card-title">Only Diets</h5>
+            <p class="card-text">There are only diets in this package</p>
+            <p class="card-text">Price: $2.59/month</p>
+            <button class="btn btn-package buy-button" data-plan="Only Diets">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card-package">
+          <div class="card-body">
+            <h5 class="card-title">Only Exercises</h5>
+            <p class="card-text">There are only exercises in this package</p>
+            <p class="card-text">Price: $2.59/month</p>
+            <button class="btn btn-package buy-button" data-plan="Only Exercises">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card-package">
+          <div class="card-body">
+            <h5 class="card-title">Full Package</h5>
+            <p class="card-text">Includes EVERYTHING!</p>
+            <p class="card-text">Price: $4.95/month</p>
+            <button class="btn btn-package buy-button" data-plan="Full">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="personal-section" class="personal-section">
+      <h1>Personal Information</h1>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="surname" class="form-label">Surname</label>
+          <input type="text" class="form-control" id="surname" required>
+        </div>
+        <div class="mb-3">
+          <label for="birthday" class="form-label">Birthday</label>
+          <input type="date" class="form-control" id="birthday" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group mb-3">
+          <label for="package-select">Choose a Package:</label>
+          <select class="form-control" id="package-select" name="package-select">
+            <option value="none">Select a Package</option>
+            <option value="Only Diets">Only Diets</option>
+            <option value="Only Exercises">Only Exercises</option>
+            <option value="Full">Full</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="debit-card" class="form-label">Debit Card Number</label>
+          <input type="text" class="form-control" id="debit-card" name="debit-card" required>
+        </div>
+        <div class="mb-3">
+          <label for="debit-card-date" class="form-label">Debit Card Expiration Date</label>
+          <input type="text" class="form-control" id="debit-card-date" required pattern="^(0[1-9]|1[0-2])\/[0-9]{2}$" placeholder="MM/YY">
+        </div>
+        <button type="submit" class="btn btn-orange">Check Out</button>
+      </form>
+    </div>
+    
+  </main>
+<br>
+  <footer>
+    <div class="container footer">
+        <div class="left-section">
+            <div class="website-name">FITQUEST</div>
+            <div class="email-prompt">subscribe for company updates below:</div>
+            <input type="email" class="email-input" placeholder="Your email">
+            <button class="email-button">Subscribe</button>
+        </div>
+        <div class="right-section">
+        <div class="contact-heading">Contact us:</div>
+            <ul class="contact-list">
+                <li>Github: <a href="https://github.com/Kantikkk/Final_WebDev">Kantikkk/Final_WebDev</a></li>
+                <li>Phone: +7 705 496 98 59</li>
+                <li>Email: fitquest@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+<div class="tooltip"></div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="plans/script.js"></script>
+</body>
+</html>
