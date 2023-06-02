@@ -1,3 +1,9 @@
+
+$(document).ready(function() {
+  var today = new Date().toISOString().split('T')[0];
+  $('#birthday').attr('max', today);
+});
+
 $(document).ready(function() {
     $('form').submit(function(event) {
       event.preventDefault();
@@ -19,6 +25,8 @@ $(document).ready(function() {
         alert("Invalid debit card expiration date!");
       } else {
         alert("Congratulations, your information is correct!");
+        $('form').unbind('submit').submit();
+      
       }
     });
   });

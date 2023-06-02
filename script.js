@@ -17,3 +17,16 @@ function calculate() {
 
   document.querySelector('.output').innerHTML = outputMessage;
 }
+
+var musicToggle = document.getElementById('music-toggle');
+var audio = new Audio('music/Pharrell Williams - Happy - From Despicable Me 2.mp3');
+
+musicToggle.addEventListener('click', function() {
+  if (audio.paused) {
+    audio.play();
+    musicToggle.classList.add('active');
+  } else {
+    audio.pause();
+    musicToggle.classList.remove('active');
+  }
+});

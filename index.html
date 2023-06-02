@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <title>Meet our team</title>
     <link rel="stylesheet" href="homestyle.css">
-
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="img/FitQuest.png">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -28,7 +27,7 @@
 <body>
     <header class="container">
         <div class="row">
-            <div class="col fs-4 fw-bold p-3" style="color: #FF8B13;">
+            <div class="logo" class="col fs-4 fw-bold p-1">
                 FITQUEST
             </div>
             <ul class="col d-flex" style="list-style-type: none; font-size: 20px; justify-content: flex-end;">
@@ -39,8 +38,21 @@
             <hr>
         </div>
     </header>
+
+    <section id="music">
+        <div class="row">
+          <div class="music-box">
+            <button class="btn btn-link" id="music-toggle">
+              <i class="fas fa-music fa-3x music-icon"></i>
+            </button>
+            <h3><strong> on/off </strong></h3>
+          </div>
+        </div>
+      </section>
+      
+
     <container id="carousel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000"
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500"
             data-pause="hover">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -75,30 +87,46 @@
         </a>
 
     </container>
+
+   
+
     <section id="features">
         <div class="row">
             <div class="feature-box col-lg-4">
-                <i class="fa-regular fa-medal fa-3x user"></i>
+                <i class="fas fa-dumbbell fa-3x icon"></i>
                 <h3> Customized Training Programs </h3>
                 <p> We offer customized training programs tailored to the specific needs and goals of our users </p>
             </div>
 
             <div class="feature-box col-lg-4">
-                <i class="fa-solid fa-drumstick-bite fa-3x user"></i>
+                <i class="fas fa-utensils  fa-3x icon"></i>
                 <h3> Custom Meal Plans </h3>
-                <p> FitQuest offers customized meal plans tailored to your weight loss restrictions and goals                </p>
+                <p> FitQuest offers customized meal plans tailored to your weight loss restrictions and goals </p>
             </div>
 
             <div class="feature-box col-lg-4">
-                <i class="fa-solid fa-cart-shopping fa-3x user"></i>
+                <i class="fas fa-shopping-cart fa-3x icon"></i>
                 <h3> Convenient ordering </h3>
                 <p> FitQuest makes the ordering process seamless and convenient for its users </p>
             </div>
         </div>
     </section>
 
+    <section id="bmi">
+        <div class="container">
+            <div class="calculator">
+                <label class="height">Height: </label> <input type="text" placeholder="in cm" class="heightInput"> <br>
+                <label class="weight">Weight: </label> <input type="text" placeholder="in kg" class="weightInput"> <br>
+                <button onclick="calculate()">Calculate your BMI </button><br>
+                <label class="BMI"> </label><span class="output"> </span>
+                <h2 class="overView"></h2>
+            </div>
+        </div>
+    </section>
+
     <section id="about">
-        <h1> Meet out team</h1>
+        <h1><strong>Meet out team</strong></h1>
+        <hr>
         <div class="container">
             <div class="row">
 
@@ -138,7 +166,6 @@
                     <div class="our-team active">
                         <div class="pic">
                             <img src="img/photo_2023-06-02 21.19.25.jpeg" alt="team member" class="img-responsive">
-                                alt="team member" class="img-responsive">
                         </div>
                         <div class="content">
                             <h3 class="title">Kantemir Maikenov</h3>
@@ -151,20 +178,8 @@
                     </div>
                 </div>
             </div>
+            <hr>
     </section>
-
-    <section id="bmi">
-        <div class="container">
-            <div class="calculator">
-                <label class="height">Height: </label> <input type="text" placeholder="in cm" class="heightInput"> <br>
-                <label class="weight">Weight: </label> <input type="text" placeholder="in kg" class="weightInput"> <br>
-                <button onclick="calculate()">Calculate your BMI </button><br>
-                <label class="BMI"> </label><span class="output"> </span>
-                <h2 class="overView"></h2>
-            </div>
-        </div>
-    </section>
-
 
     <footer>
         <div class="container footer">

@@ -5,6 +5,12 @@
 .nav-link {
     text-decoration: none;
     color: inherit;
+    font-size: 25px;
+}
+
+.logo {
+    color: #FF8B13;
+    font-size: 25px;
 }
 
 .nav-link:hover {
@@ -198,16 +204,3 @@ td:first-child::after {
     cursor: not-allowed;
 }
 
-.carousel-inner {
-    height: 800px;
-    background-color: #f3c4f3;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.carousel-inner h1{
-    padding: 300px 0px 50px 0px;
-    font-family: ubuntu;
-}
