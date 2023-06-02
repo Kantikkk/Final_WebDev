@@ -1,5 +1,5 @@
-*{
-    font-family: 'Wix Madefor Display', sans-serif; 
+* {
+    font-family: 'Wix Madefor Display', sans-serif;
 }
 
 .nav-link {
@@ -12,7 +12,7 @@
     color: #CF4DCE;
 }
 
-.nav-active{
+.nav-active {
     color: #FF8B13;
 }
 
@@ -52,7 +52,7 @@
     padding: 5px;
 }
 
-.email-input::placeholder{
+.email-input::placeholder {
     color: orange;
 }
 
@@ -66,27 +66,27 @@
 }
 
 .right-section {
-    background-color: inherit; 
+    background-color: inherit;
     font-weight: bold;
-    color: black; 
+    color: black;
 }
 
 .contact-list {
     list-style-type: disc;
-    color: purple; 
+    color: purple;
     padding-left: 20px;
 
 }
 
 .contact-heading {
-    font-size: 25px; 
+    font-size: 25px;
     margin-bottom: 10px;
     color: #FF8B13;
 }
 
 .box-section {
     padding: 20px;
-    position: relative; 
+    position: relative;
 }
 
 .diet:hover {
@@ -108,11 +108,13 @@
     width: 220px;
     height: 200px;
 }
+
 .box-section h2 {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 10px;
 }
+
 .box-section p {
     font-size: 16px;
     margin-bottom: 20px;
@@ -138,12 +140,12 @@ td:first-child::after {
     bottom: 0;
     left: -1px;
     border-left: 2px solid #ccc;
-  }
+}
 
 
 
 .no-select {
-    -webkit-user-select: none; 
+    -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
 }
@@ -156,44 +158,56 @@ td:first-child::after {
 /* Plans Style */
 .container {
     padding-top: 30px;
-  }
-  
-  .card-package {
+}
+
+.card-package {
     padding: 20px;
     border-radius: 0;
     border: none;
     box-shadow: none;
     transition: all 0.3s ease;
-  }
-  
-  .card-package:hover {
+}
+
+.card-package:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
-  }
-  
-  .btn-package {
+}
+
+.btn-package {
     background-color: purple;
     color: white;
     border-radius: 20px;
     transition: background-color 0.3s ease;
-  }
-  
-  .btn-package:hover {
+}
+
+.btn-package:hover {
     background-color: #800080;
-  }
-  
-  .btn-orange {
+}
+
+.btn-orange {
     background-color: orange;
     color: white;
-  }
-  
-  .btn-orange:hover {
+}
+
+.btn-orange:hover {
     background-color: #ff8c00;
-  }
-  
-  .form-control:disabled {
+}
+
+.form-control:disabled {
     background-color: #f8f9fa;
     cursor: not-allowed;
-  }
-  
-  
+}
+
+.carousel-inner {
+    height: 800px;
+    background-color: #f3c4f3;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.carousel-inner h1{
+    padding: 300px 0px 50px 0px;
+    font-family: ubuntu;
+}
