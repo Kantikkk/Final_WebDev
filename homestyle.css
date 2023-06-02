@@ -244,7 +244,7 @@ body {
 
 .calculator {
   position: absolute;
-  top: 128%;
+  top: 130%;
   left: 32%;
   transform: translate(-50%, -50%);
   align-items: center;
@@ -342,6 +342,13 @@ h2 {
   align-items: flex-end;
 }
 
+#bmi h1{
+padding-left: 10px;
+  font-size: 70px;
+  text-align: center;
+  color: rgb(188, 158, 192);
+}
+
 .carousel-item {
   color: rgb(52, 29, 63);
 }
@@ -359,11 +366,14 @@ h2 {
 }
 
 .carousel-inner h1 {
-  padding: 300px 0px 50px 0px;
+  padding: 200px 0px 50px 0px;
   font-family: ubuntu;
   font-size: 80px;
 }
 
+.carousel-inner p{
+  font-size: 20px;
+}
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -376,7 +386,7 @@ h2 {
 }
 
 #music {
-  padding: 2% 15%;
+  padding: 4% 15%;
   text-align: center;
   height: 120px;
   align-items: center;
@@ -403,7 +413,7 @@ h2 {
 #music h3 {
   color: #642f8f;
   font-family: Ubuntu;
-
+  font-size: 20px;
 }
 
 .music-icon {
