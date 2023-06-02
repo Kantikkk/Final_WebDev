@@ -67,11 +67,13 @@
     <form>
       <div class="mb-3">
         <label for="name" class="form-label">Name</label>
-        <input type="text" onKeyUp="if(/[^a-zA-Zа-яА-ЯёЁ .]/i.test(this.value)){this.value='';}" class="form-control" id="name" required>
+        <input type="text" onKeyUp="if(/[^a-zA-Zа-яА-ЯёЁ .]/i.test(this.value)){this.value='';}" class="form-control"
+          id="name" required>
       </div>
       <div class="mb-3">
         <label for="surname" class="form-label">Surname</label>
-        <input type="text" onKeyUp="if(/[^a-zA-Zа-яА-ЯёЁ .]/i.test(this.value)){this.value='';}" class="form-control" id="surname" required>
+        <input type="text" onKeyUp="if(/[^a-zA-Zа-яА-ЯёЁ .]/i.test(this.value)){this.value='';}" class="form-control"
+          id="surname" required>
       </div>
       <div class="mb-3">
         <label for="birthday" class="form-label">Birthday</label>
@@ -83,7 +85,8 @@
       </div>
       <div class="mb-3">
         <label for="debit-card" class="form-label">Debit Card Number</label>
-        <input type="text" class="form-control" id="debit-card" required oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+        <input type="text" class="form-control" id="debit-card" required
+          oninput="this.value = this.value.replace(/[^0-9]/g, '')">
       </div>
       <div class="mb-3">
         <label for="debit-card-date" class="form-label">Debit Card Expiration Date</label>

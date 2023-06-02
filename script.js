@@ -21,7 +21,7 @@ function calculate() {
 var musicToggle = document.getElementById('music-toggle');
 var audio = new Audio('music/Pharrell Williams - Happy - From Despicable Me 2.mp3');
 
-musicToggle.addEventListener('click', function() {
+musicToggle.addEventListener('click', function () {
   if (audio.paused) {
     audio.play();
     musicToggle.classList.add('active');

@@ -341,7 +341,8 @@ h2 {
   justify-content: center;
   align-items: flex-end;
 }
-.carousel-item{
+
+.carousel-item {
   color: rgb(52, 29, 63);
 }
 
@@ -382,7 +383,7 @@ h2 {
   background-color: rgb(204, 188, 246);
   display: flex;
   justify-content: center;
-  font-family: ubuntu; 
+  font-family: ubuntu;
 }
 
 #music-toggle {
