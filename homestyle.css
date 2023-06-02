@@ -342,8 +342,8 @@ h2 {
   align-items: flex-end;
 }
 
-#bmi h1{
-padding-left: 10px;
+#bmi h1 {
+  padding-left: 30px;
   font-size: 70px;
   text-align: center;
   color: rgb(188, 158, 192);
@@ -371,7 +371,7 @@ padding-left: 10px;
   font-size: 80px;
 }
 
-.carousel-inner p{
+.carousel-inner p {
   font-size: 20px;
 }
 
