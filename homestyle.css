@@ -238,9 +238,10 @@ body {
   padding: 70px 0px 10px 0px;
   font-size: 3rem;
   color: #642f8f;
-  font-family: 'Ubuntu' ;
+  font-family: 'Ubuntu';
 }
-#about p{
+
+#about p {
   font-family: Ubuntu;
 
 }
@@ -269,9 +270,11 @@ body {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.1);
   }
+
   100% {
     transform: scale(1);
   }
@@ -461,9 +464,11 @@ h2 {
   0% {
     color: #8f6ebd;
   }
+
   50% {
     color: #FF8B13;
   }
+
   100% {
     color: #8f6ebd;
   }
