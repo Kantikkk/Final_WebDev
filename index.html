@@ -1,37 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" >
-  
-<head lang="en">
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap">
+    <title>Meet our team</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="img/FitQuest.png">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="homestyle.css">>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
+
 <body>
     <header class="container">
         <div class="row">
-            <div class="col fs-4 fw-bold p-3" style="color: #FF8B13;">
-                FITQUEST
+            <div class="col-2 fw-bold p-1 logo"><h1>
+                FITQUEST</h1>
             </div>
-            <ul class="col d-flex" style="list-style-type: none; font-size: 20px; justify-content: flex-end;">
+            <ul class="col d-flex pt-0" style="list-style-type: none; font-size: 20px; justify-content: flex-end;">
                 <li class="p-3"><a class="nav-link  nav-active" href="index.html"> Home</a></li>
                 <li class="p-3"><a class="nav-link" href="menuandexercises.html">Exercise & Diet</a></li>
                 <li class="p-3"><a class="nav-link" href="plans.html">Plan</a></li>
             </ul>
             <hr>
-        </div>  
+        </div>
     </header>
+
+    <section id="music">
+        <div class="row">
+            <div class="music-box">
+                <button class="btn btn-link" id="music-toggle">
+                    <i class="fas fa-music fa-3x music-icon"></i>
+                    <h3>(on/off)</h3>
+                </button>
+
+            </div>
+        </div>
+    </section>
 
 
     <container id="carousel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000"
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500"
             data-pause="hover">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -43,7 +66,7 @@
                 </div>
                 <div class="carousel-item">
                     <h1> Custom Meal Plans</h1>
-                    <p> : FitQuest offers customized meal plans tailored to your weight loss restrictions and goals
+                    <p> FitQuest offers customized meal plans tailored to your weight loss restrictions and goals
                     </p>
                     <p> Our certified nutritionists create a special menu to ensure the perfect fit for each user
                     </p>
@@ -64,25 +87,27 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-        
+
     </container>
+
+
 
     <section id="features">
         <div class="row">
             <div class="feature-box col-lg-4">
-                <i class="fa-regular fa-medal fa-3x user"></i>
+                <i class="fas fa-dumbbell fa-3x iconn"></i>
                 <h3> Customized Training Programs </h3>
                 <p> We offer customized training programs tailored to the specific needs and goals of our users </p>
             </div>
 
             <div class="feature-box col-lg-4">
-                <i class="fa-solid fa-drumstick-bite fa-3x user"></i>
+                <i class="fas fa-utensils  fa-3x iconn"></i>
                 <h3> Custom Meal Plans </h3>
-                <p> FitQuest offers customized meal plans tailored to your weight loss restrictions and goals                </p>
+                <p> FitQuest offers customized meal plans tailored to your weight loss restrictions and goals </p>
             </div>
 
             <div class="feature-box col-lg-4">
-                <i class="fa-solid fa-cart-shopping fa-3x user"></i>
+                <i class="fas fa-shopping-cart fa-3x iconn"></i>
                 <h3> Convenient ordering </h3>
                 <p> FitQuest makes the ordering process seamless and convenient for its users </p>
             </div>
@@ -90,89 +115,99 @@
     </section>
 
 
-
-    <section id="about"> 
-        <h1> Meet out team</h1>
-<div class="container">
-    <div class="row">
-       
-        <div class="col-md-4 col-sm-6">
-            <div class="our-team active">
-                <div class="pic">
-                    <img src="https://phonoteka.org/uploads/posts/2021-04/1619137955_8-phonoteka_org-p-yarkii-belii-fon-na-ves-ekran-10.jpg" alt="team member" class="img-responsive">
-                </div>
-                <div class="content">
-                    <h3 class="title">Nurmukhammed Mugal</h3>
-                    <span class="post">Shopping Cart Page</span>
-                    <ul class="social">
-                        <li><a href="https://t.me/singulierzZz" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a></li>
-                    </ul>
-                </div>
+    <section id="bmi">
+        <h1>CALCULATE IT NOW!</h1>
+        <div class="container">
+            <div class="calculator">
+                <label class="height">Height: </label> <input type="text" placeholder="in cm" class="heightInput"> <br>
+                <label class="weight">Weight: </label> <input type="text" placeholder="in kg" class="weightInput"> <br>
+                <button onclick="calculate()">Calculate your BMI </button><br>
+                <label class="BMI"> </label><span class="output"> </span>
+                <h2 class="overView"></h2>
             </div>
         </div>
+    </section>
+    
+    <section id="about">
+        
+        <h1><strong>Meet out team</strong></h1>
+        <hr>
 
-        <div class="col-md-4 col-sm-6">
-            <div class="our-team active">
-                <div class="pic">
-                    <img src="pic/photo_5456304218248955283_y.jpg" alt="team member" class="img-responsive">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="our-team active">
+                        <div class="pic">
+                            <img src="img/photo_2023-06-02 21.24.10.jpeg" alt="team member" class="img-responsive img-fluid">
+                        </div>
+                        <div class="content">
+                            <h3 class="title">Guldana Abeshova</h3>
+                            <span class="post">Main Page</span>
+                            <ul class="social">
+                                <li><a href="https://t.me/abeshvg" target="_blank" rel="noopener noreferrer"><i
+                                            class="fab fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="content">
-                    <h3 class="title">Guldana Abeshova</h3>
-                    <span class="post">Main&about Page</span>
-                    <ul class="social">
-                        <li><a href="https://t.me/abeshvg" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a></li>
-                    </ul>
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="our-team active">
+                        <div class="pic">
+                            <img src="img/photo_2023-06-02 21.19.25.jpeg" alt="team member" class="img-responsive img-fluid">
+                        </div>
+                        <div class="content">
+                            <h3 class="title">Kantemir Maikenov</h3>
+                            <span class="post"> Exercise & Menu page</span>
+                            <ul class="social">
+                                <li><a href="https://t.me/littallboy" target="_blank" rel="noopener noreferrer"><i
+                                            class="fab fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="our-team active">
+                        <div class="pic">
+                            <img src="img/photo_2023-06-02 21.19.26.jpeg" alt="team member" class="img-responsive img-fluid">
+                        </div>
+                        <div class="content">
+                            <h3 class="title">Nurmukhammed Mugal</h3>
+                            <span class="post">Plan Page</span>
+                            <ul class="social">
+                                <li><a href="https://t.me/singulierzZz" target="_blank" rel="noopener noreferrer"><i
+                                            class="fab fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-      
-        <div class="col-md-4 col-sm-6">
-            <div class="our-team active">
-                <div class="pic">
-                    <img src="https://phonoteka.org/uploads/posts/2021-04/1619137955_8-phonoteka_org-p-yarkii-belii-fon-na-ves-ekran-10.jpg" alt="team member" class="img-responsive">
-                </div>
-                <div class="content">
-                    <h3 class="title">Kantemir Maikenov</h3>
-                    <span class="post"> Exercise&Menu  page</span>
-                    <ul class="social">
-                        <li><a href="https://t.me/littallboy" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a></li>
-                    </ul>
-                </div>
+            <hr>
+    </section>
+
+
+
+    <footer>
+        <div class=" footer">
+            <div class="left-section">
+                <div class="website-name">FITQUEST</div>
+                <div class="email-prompt">subscribe for company updates below:</div>
+                <input type="email" class="email-input" placeholder="Your email">
+                <button class="email-button">Subscribe</button>
+            </div>
+            <div class="right-section">
+                <div class="contact-heading">Contact us:</div>
+                <ul class="contact-list">
+                    <li>Github: <a href="https://github.com/Kantikkk/Final_WebDev">Kantikkk/Final_WebDev</a></li>
+                    <li>Phone: +7 705 496 98 59</li>
+                    <li>Email: fitquest@gmail.com</li>
+                </ul>
             </div>
         </div>
-</div>
-</section>
-
-<section id="bmi">
-    <div class="container">
-        <div class="calculator">
-            <label class="height">Height: </label> <input type="text" placeholder="in cm" class="heightInput"> <br>
-            <label class="weight">Weight: </label> <input type="text" placeholder="in kg" class="weightInput"> <br>
-            <button onclick="calculate()">Calculate BMI </button><br>
-            <label class="BMI"> </label><span class="output">  </span>
-            <h2 class="overView"></h2>
-        </div>
-    </div>
-</section>
-<footer>
-    <div class="container footer">
-        <div class="left-section">
-            <div class="website-name">FITQUEST</div>
-            <div class="email-prompt">subscribe for company updates below:</div>
-            <input type="email" class="email-input" placeholder="Your email">
-            <button class="email-button">Subscribe</button>
-        </div>
-        <div class="right-section">
-        <div class="contact-heading">Contact us:</div>
-            <ul class="contact-list">
-                <li>Github: <a href="https://github.com/Kantikkk/Final_WebDev">Kantikkk/Final_WebDev</a></li>
-                <li>Phone: +7 705 496 98 59</li>
-                <li>Email: fitquest@gmail.com</li>
-            </ul>
-        </div>
-    </div>
-</footer>
-<script  src="script.js"></script>
+    </footer>
+    <script src="./script.js"></script>
 
 </body>
+
 </html>
