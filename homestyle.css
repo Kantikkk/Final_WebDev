@@ -244,7 +244,7 @@ body {
 
 .calculator {
   position: absolute;
-  top: 130%;
+  top: 185%;
   left: 32%;
   transform: translate(-50%, -50%);
   align-items: center;
