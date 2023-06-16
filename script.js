@@ -6,7 +6,7 @@ function calculate() {
   var outputMessage = '';
 
   if (isNaN(BMI)) {
-    outputMessage = "Invalid input. Please enter numerical values for weight and height.";
+    outputMessage ="Invalid input. Please enter numerical values for weight and height.";
   } else if (BMI < 18.5) {
     outputMessage = "Your BMI is " + finalBMI + ", which means you are underweight.";
   } else if (BMI >= 18.5 && BMI <= 24.9) {
